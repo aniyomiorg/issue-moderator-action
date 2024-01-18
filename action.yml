@@ -1,6 +1,6 @@
 name: Issue moderator with commands
 description: Automatically close or lock issues based on commands.
-author: tachiyomiorg
+author: aniyomiorg
 branding:
   icon: alert-circle
   color: red
@@ -77,7 +77,7 @@ inputs:
     description: >
       The URL of the JSON extensions repository.
       Required if `existing-check-enabled` is enabled.
-    default: https://raw.githubusercontent.com/tachiyomiorg/extensions/repo/index.min.json
+    default: https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/index.min.json
   existing-check-comment:
     required: false
     description: >

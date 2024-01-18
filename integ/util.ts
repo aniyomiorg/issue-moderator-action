@@ -1,7 +1,7 @@
 import { Octokit } from '@octokit/action';
 
 export const baseIssueMetadata = {
-  owner: 'tachiyomiorg',
+  owner: 'aniyomiorg',
   repo: 'issue-moderator-action',
 };
 

@@ -57,6 +57,6 @@ jobs:
             [
               {
                 "keywords": ["cf", "cloudflare"],
-                "message": "Refer to the **Solving Cloudflare issues** section at https://tachiyomi.org/help/guides/troubleshooting/#solving-cloudflare-issues. If it doesn't work, migrate to other sources or wait until they lower their protection."
+                "message": "Refer to the **Solving Cloudflare issues** section at https://aniyomi.org/help/guides/troubleshooting/#solving-cloudflare-issues. If it doesn't work, migrate to other sources or wait until they lower their protection."
               }
             ]

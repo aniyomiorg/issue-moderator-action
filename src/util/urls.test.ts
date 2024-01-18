@@ -46,12 +46,12 @@ describe('urlsFromIssueBody', () => {
   it('excludes some URLs', () => {
     (
       [
-        ['foo https://tachiyomi.org/extensions bar', []],
-        ['foo https://github.com/tachiyomiorg bar', []],
+        ['foo https://aniyomi.org/extensions bar', []],
+        ['foo https://github.com/aniyomiorg bar', []],
         ['foo user-images.githubusercontent.com/something bar', []],
         ['foo www.gist.github.com/something bar', []],
         [
-          'foo https://github.com/tachiyomiorg/extensions/blob/master/README.md something',
+          'foo https://github.com/aniyomiorg/aniyomi-extensions/blob/master/README.md something',
           [],
         ],
       ] as const
@@ -66,8 +66,8 @@ describe('cleanUrl', () => {
     (
       [
         [
-          'https://www.tachiyomi.org/subpath?foo=bar#hash',
-          'tachiyomi.org/subpath?foo=bar#hash',
+          'https://www.aniyomi.org/subpath?foo=bar#hash',
+          'aniyomi.org/subpath?foo=bar#hash',
         ],
         ['http://google.com/', 'google.com'],
         ['https://GITHUB.com', 'github.com'],

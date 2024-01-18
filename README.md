@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Moderate issues
-        uses: tachiyomiorg/issue-moderator-action@v2
+        uses: aniyomiorg/issue-moderator-action@v2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 ```
