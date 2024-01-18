@@ -1,4 +1,4 @@
-name: Issue moderator with commands
+name: Aniyomi's issue moderator with commands
 description: Automatically close or lock issues based on commands.
 author: aniyomiorg
 branding:
